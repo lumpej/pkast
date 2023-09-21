@@ -11,6 +11,8 @@ const { image, title = astropodConfig.name, description = astropodConfig.descrip
 <!DOCTYPE html>
 <html lang="en" data-theme={astropodConfig.theme}>
   <head>
+<!-- Include the script that builds the page and powers Netlify CMS -->
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body class="bg-base-200 min-h-screen">
